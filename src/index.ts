@@ -1,6 +1,5 @@
 import * as _ from 'lodash';
 
-
 export const lodashStringify = (obj: Record<string, any>): string | undefined => {
     if (_.isNull(obj)) {
         return 'null';
